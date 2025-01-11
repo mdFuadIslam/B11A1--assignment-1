@@ -177,12 +177,14 @@ section {
     text-align: left;
 }
 
-.section-desctription {
+.section-description {
     color: #0E0E0E;
     font-family: 'Fira Sans';
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: regular;
     text-align: left;
+    opacity: 0.7;
+    line-height: 24px;
 }
 
 .pillars {
@@ -193,7 +195,7 @@ section {
 
 .pillar {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
 }
 
@@ -213,6 +215,57 @@ section {
     font-weight: regular;
     text-align: left;
     opacity: 0.7;
+    line-height: 24px;
+}
+
+.visions {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.vision {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.quote {
+    background-color: white;
+    border-radius: 15px;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 20px;
+    margin: 24px 160px;
+}
+
+.authority-message {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+    opacity: 0.8;
+    line-height: 24px;
+}
+
+.authority-name {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.authority-position {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+    opacity: 0.6;
 }
 /* footer style */
 footer {
@@ -247,6 +300,7 @@ footer ul {
     margin: 0;
     padding: 0;
 }
+
 /* Shared Styles */
 .btn-primary {
     background-color: #006A50;
@@ -265,4 +319,27 @@ footer ul {
     border-color: #006A50;
     font-size: 18px;
     font-weight: 600;
+}
+
+.blue-bg{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.blue{
+    background-color: #5490F5;
+}
+
+.green-bg{
+    background-color: #C6E4D6;
+}
+
+.green{
+    background-color: #09A15C;
+}
+
+.yellow-bg {
+    background-color: #F7EBCF;
+}
+.yellow {
+    background-color: #FFC239;
 }
