@@ -281,7 +281,7 @@ section {
 }
 
 .opinion-table th{
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 24px;
 }
 
@@ -303,6 +303,74 @@ section {
     text-align: center;
     padding: 10px 14px;
 }
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 24px 160px;
+}
+
+.news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.news-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+    line-height: 24px;
+}
+
+.news-desc{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+    line-height: 24px;
+}
+
+.news-thumbnail{
+    border-radius: 15px;
+}
+
+.email-field {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+}
+.email-field input[type="email"] {
+    background-color: white;
+    color: rgba(14, 14, 14, 0.3); 
+    padding: 18px 40px;
+    width: 50%;
+    border: none;
+}
+.btn-subscribe {
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-subscribe:hover {
+    background-color: #012e23;
+}
+
 /* footer style */
 footer {
     background-color: white;
@@ -347,6 +415,10 @@ footer ul {
     font-weight: 600;
 }
 
+.btn-primary:hover {
+    background-color: #012e23;
+}
+
 .btn-hollow {
     background-color: #F5F5F5;
     padding: 15px 30px;
@@ -355,6 +427,10 @@ footer ul {
     border-color: #006A50;
     font-size: 18px;
     font-weight: 600;
+}
+
+.btn-hollow:hover {
+    background-color: #e1e1e1;
 }
 
 .blue-bg{
@@ -376,6 +452,19 @@ footer ul {
 .yellow-bg {
     background-color: #F7EBCF;
 }
+
 .yellow {
     background-color: #FFC239;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #C6E4D6;
+    margin: 24px 160px;
+    border-radius: 15px;
+    padding: 80px 60px;
 }
