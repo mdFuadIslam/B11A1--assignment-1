@@ -115,7 +115,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 24px 160px;
-    
 }
 
 .nav-title {
@@ -131,7 +130,7 @@ nav {
     justify-content: space-between;
     border-radius: 15px;
     padding: 80px 60px;
-    margin: 24px 160px;
+    margin: 24px 160px
 }
 
 .banner-content {
@@ -165,6 +164,55 @@ body{
     font-family: 'Fira Sans';
     margin: 0;
     padding: 0;
+    
+}
+section {
+    padding: 24px 160px;
+}
+.section-title {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.section-desctription {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pillar {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.title {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.desc {
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    font-weight: regular;
+    text-align: left;
+    opacity: 0.7;
 }
 /* footer style */
 footer {
