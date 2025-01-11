@@ -267,6 +267,42 @@ section {
     text-align: left;
     opacity: 0.6;
 }
+
+.opinion-table {
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    padding: 32px;
+}
+
+.opinion-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.opinion-table th{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 24px;
+}
+
+.table-header {
+    background-color: #C6E4D6;
+}
+
+.table-header th {
+    border: none;
+}
+
+.opinion {
+    color: #C6E4D6;
+    text-align: center;
+}
+.opinion select {
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    text-align: center;
+    padding: 10px 14px;
+}
 /* footer style */
 footer {
     background-color: white;
