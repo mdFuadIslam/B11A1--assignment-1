@@ -162,6 +162,7 @@ nav {
 /* body style */
 body{
     background-color: #F1F1F3;
+    font-family: 'Fira Sans';
     margin: 0;
     padding: 0;
 }
@@ -175,7 +176,7 @@ footer {
 .footer-title{
     color: #0E0E0E;
     font-family: 'Fira Sans';
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
