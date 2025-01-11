@@ -108,13 +108,14 @@
   
 
 /* header style */
-header {
-    margin: 24px 160px;
-}
+
 nav {
+    background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 160px;
+    
 }
 
 .nav-title {
@@ -130,6 +131,7 @@ nav {
     justify-content: space-between;
     border-radius: 15px;
     padding: 80px 60px;
+    margin: 24px 160px;
 }
 
 .banner-content {
@@ -153,14 +155,50 @@ nav {
     font-weight: bold;
 }
 
-/* body style */
-
-
-/* Shared Styles */
 .banner-img {
     justify-content: center;
 }
 
+/* body style */
+body{
+    background-color: #F1F1F3;
+    margin: 0;
+    padding: 0;
+}
+/* footer style */
+footer {
+    background-color: white;
+    justify-content: center;
+    padding: 18px
+}
+
+.footer-title{
+    color: #0E0E0E;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Shared Styles */
 .btn-primary {
     background-color: #006A50;
     padding: 17px 34px;
@@ -171,7 +209,7 @@ nav {
 }
 
 .btn-hollow {
-    background-color: #fff;
+    background-color: #F5F5F5;
     padding: 15px 30px;
     border-radius: 5px;
     color: #006A50;
